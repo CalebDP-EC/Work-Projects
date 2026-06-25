@@ -8,12 +8,16 @@ description: Create Microsoft Word documents by cloning one canonical template a
 ## Workflow
 
 1. Treat `assets/template.docx` as the source of truth.
-2. Create a new working copy of the template and fill that copy with the document content.
-3. Preserve the template exactly: layout, styles, page setup, headers/footers, numbering, images, section breaks, front page, table of contents, and page furniture.
-4. Do not clear the document body, rebuild the front page, or remove template paragraphs/tables unless the template itself instructs that a placeholder must be replaced.
-5. Use the template copy as the finished document. Do not re-style the source document to imitate the template.
-6. Make the smallest content edit that satisfies the request.
-7. If the template file is missing, stop and ask for it before formatting the document.
+2. Before starting document creation, ask for:
+   - Customer Name
+   - Customer Logo
+3. Do not start the document until both answers are provided.
+4. Create a new working copy of the template and fill that copy with the document content.
+5. Preserve the template exactly: layout, styles, page setup, headers/footers, numbering, images, section breaks, front page, table of contents, and page furniture.
+6. Do not clear the document body, rebuild the front page, or remove template paragraphs/tables unless the template itself instructs that a placeholder must be replaced.
+7. Use the template copy as the finished document. Do not re-style the source document to imitate the template.
+8. Make the smallest content edit that satisfies the request.
+9. If the template file is missing, stop and ask for it before formatting the document.
 
 ## Formatting Rules
 

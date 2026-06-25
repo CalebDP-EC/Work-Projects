@@ -1,4 +1,4 @@
 interface:
   display_name: "Word Template Formatter"
   short_description: "Create Word docs from one fixed template"
-  default_prompt: "Use $word-template-formatter to create a new Word document by cloning the bundled template intact and filling only its designated placeholders with the provided content."
+  default_prompt: "Use $word-template-formatter to create a new Word document by cloning the bundled template intact and filling only its designated placeholders after asking for the Customer Name and Customer Logo."
