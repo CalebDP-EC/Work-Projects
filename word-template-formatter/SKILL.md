@@ -11,7 +11,7 @@ description: Create Microsoft Word documents by cloning one canonical template a
 2. Before starting document creation, ask for:
    - Customer Name
    - Customer Logo
-3. Do not start the document until both answers are provided.
+3. If no customer logo is provided, keep going and use the template's customer-logo placeholder.
 4. Create a new working copy of the template and fill that copy with the document content.
 5. Preserve the template exactly: layout, styles, page setup, headers/footers, numbering, images, section breaks, front page, table of contents, and page furniture.
 6. Do not clear the document body, rebuild the front page, or remove template paragraphs/tables unless the template itself instructs that a placeholder must be replaced.
