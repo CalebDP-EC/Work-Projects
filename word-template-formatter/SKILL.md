@@ -12,12 +12,13 @@ description: Create Microsoft Word documents by cloning one canonical template a
    - Customer Name
    - Customer Logo
 3. If no customer logo is provided, keep going and use the template's customer-logo placeholder.
-4. Create a new working copy of the template and fill that copy with the document content.
-5. Preserve the template exactly: layout, styles, page setup, headers/footers, numbering, images, section breaks, front page, table of contents, and page furniture.
-6. Do not clear the document body, rebuild the front page, or remove template paragraphs/tables unless the template itself instructs that a placeholder must be replaced.
-7. Use the template copy as the finished document. Do not re-style the source document to imitate the template.
-8. Make the smallest content edit that satisfies the request.
-9. If the template file is missing, stop and ask for it before formatting the document.
+4. If relevant screenshots exist in the chat history, include them in the document near the related content.
+5. Create a new working copy of the template and fill that copy with the document content.
+6. Preserve the template exactly: layout, styles, page setup, headers/footers, numbering, images, section breaks, front page, table of contents, and page furniture.
+7. Do not clear the document body, rebuild the front page, or remove template paragraphs/tables unless the template itself instructs that a placeholder must be replaced.
+8. Use the template copy as the finished document. Do not re-style the source document to imitate the template.
+9. Make the smallest content edit that satisfies the request.
+10. If the template file is missing, stop and ask for it before formatting the document.
 
 ## Formatting Rules
 
