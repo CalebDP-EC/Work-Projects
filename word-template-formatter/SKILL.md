@@ -16,9 +16,11 @@ description: Create Microsoft Word documents by cloning one canonical template a
 5. Create a new working copy of the template and fill that copy with the document content.
 6. Preserve the template exactly: layout, styles, page setup, headers/footers, numbering, images, section breaks, front page, table of contents, and page furniture.
 7. Do not clear the document body, rebuild the front page, or remove template paragraphs/tables unless the template itself instructs that a placeholder must be replaced.
-8. Use the template copy as the finished document. Do not re-style the source document to imitate the template.
-9. Make the smallest content edit that satisfies the request.
-10. If the template file is missing, stop and ask for it before formatting the document.
+8. Start each main numbered topic on a new page.
+9. Keep subpoints under the same main topic flowing naturally on that page and the following pages as needed.
+10. Use the template copy as the finished document. Do not re-style the source document to imitate the template.
+11. Make the smallest content edit that satisfies the request.
+12. If the template file is missing, stop and ask for it before formatting the document.
 
 ## Formatting Rules
 
@@ -26,6 +28,8 @@ description: Create Microsoft Word documents by cloning one canonical template a
 - Keep all visible formatting aligned to the template, including page headers, footers and section breaks.
 - Keep all images and decorative page-corner artwork from the template in the exact same position and size, unless the request explicitly asks for changes.
 - Preserve existing placeholder positions and replace only the content that needs to change.
+- For numbered topic headings such as `1.`, `2.`, `3.`, insert a page break before each main topic so the topic starts on its own page.
+- Do not force page breaks between subpoints such as `1.1`, `1.2`, `2.1`, or `2.2`; let them continue naturally within the main topic section.
 - When a document conflicts with the template, the template wins always.
 - If the request is to reformat a document, do not change the content unless it is necessary to fill the template copy correctly.
 - For as-built requests, produce a new DOCX based on the template and treat that copied file as the deliverable.

@@ -1,4 +1,4 @@
 interface:
   display_name: "Word Template Formatter"
   short_description: "Create Word docs from one fixed template"
-  default_prompt: "Use $word-template-formatter to create a new Word document by cloning the bundled template intact, asking for the Customer Name and Customer Logo, using the template's customer-logo placeholder if no logo is provided, and including relevant screenshots from the chat history."
+  default_prompt: "Use $word-template-formatter to create a new Word document by cloning the bundled template intact, asking for the Customer Name and Customer Logo, using the template's customer-logo placeholder if no logo is provided, including relevant screenshots from the chat history, and starting each main numbered topic on a new page."
